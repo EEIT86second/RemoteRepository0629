@@ -22,19 +22,8 @@ public class Servlet1 extends HttpServlet {
 		System.out.println("我不是藍堯306");
 		System.out.println("我不是藍堯");
 		System.out.println("我不是藍堯");
-
-
-
-		
-		System.out.println("Servlet2");
-		System.out.println("Servlet3");
-		System.out.println("Servlet2");
-		System.out.println("Servlet3");
-		System.out.println("9+69+5Servlet1");
-		System.out.println("Servlet2");
-		System.out.println("Servlet3");
-		System.out.println("Servlet2");
-		System.out.println("Servlet3");
+		System.out.println("我不是藍堯");
+		System.out.println("我不是藍堯");
 
 
 		HttpSession session = request.getSession();
