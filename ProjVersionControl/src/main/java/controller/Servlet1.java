@@ -16,22 +16,7 @@ public class Servlet1 extends HttpServlet {
 	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 		
 
-
-		System.out.println("Hello Servlet");
-		
-		System.out.println("我不是藍堯306");
-		System.out.println("我不是藍堯");
-		System.out.println("我不是藍堯");
-		System.out.println("我不是藍堯123");
-		System.out.println("我不是藍堯");
-		System.out.println("我不是藍堯");
-
-
-		
-		System.out.println("Servlet2");
-	
-
-
+        System.out.println("安安安安");
 		HttpSession session = request.getSession();
 		session.setAttribute("time", ""+sDateFormat.format(new Date()));
 		
