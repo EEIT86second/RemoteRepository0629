@@ -12,8 +12,6 @@ import javax.servlet.http.HttpSession;
 
 public class Servlet1 extends HttpServlet {
 	private SimpleDateFormat sDateFormat = new SimpleDateFormat("yyyy/MM/dd hh:mm:ss");
-	@Override
-	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 
 
 		System.out.println("哈哈哈哈");
@@ -21,7 +19,6 @@ public class Servlet1 extends HttpServlet {
 		
 		System.out.println("哈哈");
 		System.out.println("哈");
-		
 
 		HttpSession session = request.getSession();
 		session.setAttribute("time", ""+sDateFormat.format(new Date()));
