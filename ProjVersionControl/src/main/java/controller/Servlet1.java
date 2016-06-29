@@ -22,7 +22,9 @@ public class Servlet1 extends HttpServlet {
 		System.out.println("我不是藍堯123");
 		System.out.println("我不是藍堯");
 		System.out.println("我不是藍堯");
-
+		System.out.println("我不是藍堯123");
+		System.out.println("我不是藍堯");
+		System.out.println("我不是藍堯");
 
 
 		
