@@ -17,7 +17,7 @@ public class Servlet1 extends HttpServlet {
 		
 
 		System.out.println("Ha Ha Ha 我是藍堯 我超帥..  !!!!!!!");
-
+		System.out.println("Ha Ha Ha 我是藍堯 我超帥..  !!!!!!!");
 
 
 		HttpSession session = request.getSession();
