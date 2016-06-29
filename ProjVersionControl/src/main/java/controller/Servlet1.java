@@ -20,6 +20,8 @@ public class Servlet1 extends HttpServlet {
 		System.out.println("呵呵");
 		System.out.println("嘻嘻");
 
+
+
 		HttpSession session = request.getSession();
 		session.setAttribute("time", ""+sDateFormat.format(new Date()));
 		
