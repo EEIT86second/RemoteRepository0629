@@ -21,7 +21,7 @@ public class Servlet1 extends HttpServlet {
 
 		System.out.println("矽谷!!!");
 		System.out.println("矽谷!!!");
-		System.out.println("矽谷!!!");
+		System.out.println("矽谷麻將!!!");
 		
 		
 
