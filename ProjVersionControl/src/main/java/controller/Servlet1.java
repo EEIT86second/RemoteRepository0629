@@ -16,11 +16,20 @@ public class Servlet1 extends HttpServlet {
 	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 		
 
+
 		System.out.println("Hello Servlet");
 		
 		System.out.println("我不是藍堯");
 		System.out.println("我不是藍堯");
 		System.out.println("我不是藍堯");
+
+
+
+		System.out.println("9+69+5Servlet1");
+		System.out.println("Servlet2");
+		System.out.println("Servlet3");
+		System.out.println("Servlet2");
+		System.out.println("Servlet3");
 
 
 		HttpSession session = request.getSession();
