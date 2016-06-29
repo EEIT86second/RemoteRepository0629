@@ -5,11 +5,19 @@
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
 <title>Success Page</title>
 </head>
 <body>
 
 <h3>it's success ${time}</h3>
+
+<title>Success</title>
+</head>
+<body>
+
+<h3>Success ${time}</h3>
+>>>>>>> branch 'master' of https://github.com/EEIT86second/RemoteRepository0629.git
 <h3><a href="<c:url value="/index.jsp" />">Home</a></h3>
 
 </body>
