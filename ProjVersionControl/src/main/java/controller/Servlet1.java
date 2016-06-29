@@ -18,17 +18,7 @@ public class Servlet1 extends HttpServlet {
 
 
 		System.out.println("哈哈哈哈");
-		System.out.println("呵呵呵呵");
-		System.out.println("嘻嘻嘻嘻");
-		System.out.println("哈哈哈哈");
-		System.out.println("呵呵呵呵");
-		System.out.println("嘻嘻嘻嘻");
-		System.out.println("哈哈哈哈");
-		System.out.println("呵呵呵呵");
-		System.out.println("嘻嘻嘻嘻");
-		System.out.println("哈哈哈哈");
-		System.out.println("呵呵呵呵");
-		System.out.println("嘻嘻嘻嘻");
+		
 		
 		
 
