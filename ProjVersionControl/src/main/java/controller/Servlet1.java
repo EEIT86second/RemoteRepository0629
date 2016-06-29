@@ -14,12 +14,13 @@ public class Servlet1 extends HttpServlet {
 	private SimpleDateFormat sDateFormat = new SimpleDateFormat("yyyy/MM/dd hh:mm:ss");
 	@Override
 	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-
-
+		System.out.println(sDateFormat);
 		System.out.println("嘻嘻嘻嘻哈哈哈哈嘻嘻嘻嘻嘿嘿嘿嘿呵呵呵呵哇哇哇哇");
 		System.out.println("嘻嘻嘻嘻哈哈哈哈嘻嘻嘻嘻嘿嘿嘿嘿呵呵呵呵哇哇哇哇");
 		System.out.println("嘻嘻嘻嘻哈哈哈哈嘻嘻嘻嘻嘿嘿嘿嘿呵呵呵呵哇哇哇哇");
-		
+		System.out.println("嘻嘻嘻嘻哈哈哈哈嘻嘻嘻嘻嘿嘿嘿嘿呵呵呵呵哇哇哇哇");
+		System.out.println("嘻嘻嘻嘻哈哈哈哈嘻嘻嘻嘻嘿嘿嘿嘿呵呵呵呵哇哇哇哇");
+		System.out.println("嘻嘻嘻嘻哈哈哈哈嘻嘻嘻嘻嘿嘿嘿嘿呵呵呵呵哇哇哇哇");
 		HttpSession session = request.getSession();
 		session.setAttribute("time", ""+sDateFormat.format(new Date()));
 		
